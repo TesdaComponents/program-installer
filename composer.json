@@ -15,12 +15,19 @@
     "require": {
         "php": "^7.0",
         "roave/security-advisories": "dev-master",
-        "tesda/tvet-program-prospectus": "^1.0 || ~0.1 || dev-develop"
+	"tesda/els-program-prospectus": "^1.0 || dev-develop",
+        "tesda/soc-program-prospectus": "^1.0 || dev-develop",
+	"tesda/trs-program-prospectus": "^1.0 || dev-develop"
     },
     "extra": {
-        "zf": {
-            "module": "Tesda"
-        }
+        "zf": [
+            "module": [
+		"Tesda\\Els",
+		"Tesda\\Soc",
+		"Tesda\\Trs",
+		""
+	    ]
+        ]
     }
 }
 
