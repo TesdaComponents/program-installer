@@ -1,0 +1,26 @@
+{
+    "name": "tesda/program-installer",
+    "description": "TESDA Program Installer",
+    "license": "MIT",
+    "type": "metapackage",
+    "keywords": ["ZF module", "TESDA", "TVET Programs"],
+    "homepage": "https://github.com/TesdaComponents/program-installer",
+    "authors": [
+        {
+            "name": "Gab Amba",
+            "email": "gamba@gabbydgab.com",
+            "homepage": "http://www.gabbydgab.com/"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "roave/security-advisories": "dev-master",
+        "tesda/tvet-program-prospectus": "^1.0 || ~0.1 || dev-develop"
+    },
+    "extra": {
+        "zf": {
+            "module": "Tesda"
+        }
+    }
+}
+
