@@ -20,14 +20,13 @@
 	"tesda/trs-program-prospectus": "^1.0 || dev-develop"
     },
     "extra": {
-        "zf": [
+        "zf": {
             "module": [
 		"Tesda\\Els",
 		"Tesda\\Soc",
-		"Tesda\\Trs",
-		""
+		"Tesda\\Trs"
 	    ]
-        ]
+        }
     }
 }
 
